@@ -91,7 +91,7 @@ while j < len(s) - 1:
 
     # put spaces after commas
     elif s[j:j + 2] == "," and s[j + 1] != " ":
-        s_cleaned += ","
+        s_cleaned += ", "
         j += 1
 
     # get rid of chapter labels
