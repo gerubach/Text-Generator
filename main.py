@@ -90,7 +90,7 @@ while j < len(s) - 1:
         j += 1
 
     # put spaces after commas
-    elif s[j:j + 2] == "," and s[j + 1] != " ":
+    elif s[j] == "," and s[j + 1] != " ":
         s_cleaned += ", "
         j += 1
 
