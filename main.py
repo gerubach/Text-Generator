@@ -89,6 +89,10 @@ while j < len(s) - 1:
         s_cleaned += '" '
         j += 1
 
+    #make all quotations the same
+    elif s[j] == '“' or s[j] == '”':
+        s_cleaned += '"'
+        j += 1
     # put spaces after commas
     elif s[j] == "," and s[j + 1] != " ":
         s_cleaned += ", "
